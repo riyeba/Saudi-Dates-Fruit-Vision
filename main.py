@@ -19,11 +19,7 @@ origins = [
     
 ]
 
-origins = [
-    "https://potatoes-leaf-disease-detection.onrender.com",  
-    "http://localhost:5173", 
-    "https://potatoleafdiseasedetectionapp.vercel.app"
-]
+
 
 
 app.add_middleware(
