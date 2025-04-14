@@ -16,8 +16,10 @@ origins = [
     "http://localhost:5173", 
     "https://backend-saudi-date.onrender.com"
     "https://typeofdatedetector.vercel.app/"
+    "https://backend-saudi-date.onrender.com/predicts"
     
 ]
+
 
 
 
