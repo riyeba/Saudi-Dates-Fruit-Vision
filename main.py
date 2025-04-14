@@ -16,7 +16,7 @@ origins = [
     "http://localhost:5173", 
     "https://backend-saudi-date.onrender.com"
     "https://typeofdatedetector.vercel.app/"
-    "https://backend-saudi-date.onrender.com/predicts"
+    
     
 ]
 
@@ -51,7 +51,7 @@ def read_file_as_image(data) -> np.ndarray:
     image = np.array(image)
     return image
 
-@app.post("/predicts")
+@app.post("/predict")
 async def predict(file: UploadFile = File(...)):
     image_array = read_file_as_image(await file.read())
     image_batch = np.expand_dims(image_array, 0)  # (1, 256, 256, 3)
