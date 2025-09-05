@@ -33,4 +33,9 @@ The web application allows users to upload images of Saudi dates fruits, and it 
 ## Classes
 
 The model can detect **9 classes** of Saudi dates fruits:
+```
+CLASS_NAMES = ["Ajwa", "Galaxy", "Mejdool", "Meneifi", "NabtatAli", "Rutab", "Shaishe", "Sokari", "Sugaey"]
+```
+
+
 
