@@ -53,7 +53,7 @@ Follow the steps below to set up the project locally:
 
 1. **Clone repository**
    ```bash
-   git clone https://github.com/your-username/Saudi-Date-Fruits-Vision.git
+   git clone https://github.com/riyeba/Saudi-Dates-Fruit-Vision.git
   
 
 2. **Install the requirements**
