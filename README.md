@@ -34,6 +34,8 @@ The web application allows users to upload images of Saudi dates fruits, and it 
 - Display prediction results on the web interface.  
 
 ---
+<img src="Web-interface.png" width="1000"> 
+
 
 ## Classes
 
