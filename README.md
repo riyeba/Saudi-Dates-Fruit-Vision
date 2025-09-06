@@ -97,6 +97,6 @@ The classification system is built using **TensorFlow/Keras** with a **Convoluti
 
 ### Example Training Command
 ```bash
-python train.py --data-dir data/ --epochs 50 --batch-size 32
+python train.py --data-dir data/ --epochs 33 --batch-size 32
 
 
