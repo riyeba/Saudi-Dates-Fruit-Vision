@@ -12,12 +12,16 @@ There is a need for an intelligent, automated system that can classify Saudi dat
 
 ---
 
-## Demo Video
+## Demo
 
-[Insert your demo video link here]
-Result_date.png
+Here is an example output of the system:
 
----
+<img src="Result_date.png" width="1000"> 
+
+
+
+
+
 
 ## Web Application
 
