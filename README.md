@@ -47,4 +47,56 @@ CLASS_NAMES = ["Ajwa", "Galaxy", "Mejdool", "Meneifi", "NabtatAli", "Rutab", "Sh
 ```
 
 
+## Installation
+
+Follow the steps below to set up the project locally:
+
+1. **Clone repository**
+   ```bash
+   git clone https://github.com/your-username/Saudi-Date-Fruits-Vision.git
+  
+
+2. **Install the requirements**
+
+   ```bash
+   pip install -r requirements.txt
+  
+
+
+## Model and Training Pipeline
+
+The classification system is built using **TensorFlow/Keras** with a **Convolutional Neural Network (CNN)** architecture. The model is trained to classify images of Saudi date varieties into **9 distinct classes**.
+
+### Model Highlights
+- Input images are resized and normalized before feeding into the model  
+- Convolutional layers extract spatial features  
+- Pooling layers reduce dimensionality while retaining key information  
+- Fully connected layers map extracted features to output classes  
+- Softmax activation is used for final classification across the 9 classes  
+
+### Training Pipeline
+1. **Data Preparation**
+   - Collect and organize images of Saudi dates by class  
+   - Split dataset into training, validation, and test sets  
+   - Apply preprocessing: resizing, normalization, and data augmentation (rotation, flipping, brightness adjustments)  
+
+2. **Model Training**
+   - Train the CNN using TensorFlow/Keras  
+   - Loss function: `categorical_crossentropy`  
+   - Optimizer: `Adam`  
+   - Metrics: accuracy, validation accuracy, and loss  
+
+3. **Evaluation**
+   - Evaluate the trained model on the test dataset  
+   - Generate metrics such as confusion matrix and classification report  
+   - Visualize training history (accuracy/loss curves)  
+
+4. **Deployment**
+   - Save the trained model (`.h5` or `.pb` format)  
+   - Integrate with the web application for real-time classification  
+
+### Example Training Command
+```bash
+python train.py --data-dir data/ --epochs 50 --batch-size 32
+
 
