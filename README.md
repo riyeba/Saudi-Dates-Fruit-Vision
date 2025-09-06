@@ -29,12 +29,14 @@ The web application allows users to upload images of Saudi dates fruits, and it 
 
 ### Features
 
-- Upload images of Saudi dates fruits.  
-- Predict the class of the uploaded fruit.  
-- Display prediction results on the web interface.  
+- Upload or take an image of Saudi-dates fruits.  
+- Click on submit after the image has been uploaded.  
+- The prediction results will display on the interface.  
 
 ---
 <img src="Web-interface.png" width="1000"> 
+
+**Live Demo:** [https://typeofdatedetector.vercel.app/](https://typeofdatedetector.vercel.app/)
 
 
 ## Classes
