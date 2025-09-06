@@ -93,10 +93,37 @@ The classification system is built using **TensorFlow/Keras** with a **Convoluti
 
 4. **Deployment**
    - Save the trained model (`.h5` or `.pb` format)  
-   - Integrate with the web application for real-time classification  
+   - Integrate with the web application for real-time classification
+   - 
 
-### Example Training Command
+### Fast Api Codes
 ```bash
-python train.py --data-dir data/ --epochs 33 --batch-size 32
+
+
+
+## FastAPI Backend for Saudi Date Classification
+
+```python
+from fastapi import FastAPI, File, UploadFile
+import numpy as np
+from io import BytesIO
+from PIL import Image
+import tensorflow as tf
+
+app = FastAPI()
+
+# Load the trained model
+MODEL = tf.keras.models.load_model("saudidattt.h5")
+CLASS_NAMES = ["Ajwa", "Galaxy", "Mejdool", "Meneifi", "NabtatAli", "Rutab", "Shaishe","Sokari","Sugaey"]
+
+-- remaining code here
+```
+
+## Credit
+
+This project was built using:
+
+- **TensorFlow** – for building, training, and saving the Saudi date classification model.  
+- **FastAPI** – for creating the backend API to serve predictions from the trained model.  
 
 
